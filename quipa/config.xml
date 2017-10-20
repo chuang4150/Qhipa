@@ -88,7 +88,6 @@
         <splash height="1920" src="res/screens/windows/SplashScreenPhone.scale-240.png" width="1152" />
     </platform>
     <engine name="android" spec="^6.2.3" />
-    <engine name="ios" spec="4.2.0" />
     <engine name="windows" spec="4.4.2" />
     <plugin name="com.googlemaps.ios" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk" />
     <plugin name="cordova-plugin-camera" spec="^2.4.1" />
@@ -100,4 +99,5 @@
     </plugin>
     <plugin name="cordova-plugin-indexedDB" spec="~0.1.2" />
     <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
+    <engine name="ios" spec="~4.2.0" />
 </widget>
