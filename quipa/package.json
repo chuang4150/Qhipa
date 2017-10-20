@@ -1,38 +1,38 @@
 {
-    "name": "quipa",
-    "version": "1.0.0",
-    "private": true,
-    "dependencies": {
-        "cordova-android": "^6.2.3",
-        "cordova-ios": "4.2.0",
-        "cordova-plugin-camera": "^2.4.1",
-        "cordova-plugin-compat": "~1.1.0",
-        "cordova-plugin-geolocation": "^2.4.3",
-        "cordova-plugin-googlemaps": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps.git#multiple_maps",
-        "cordova-plugin-indexedDB": "~0.1.2",
-        "cordova-plugin-indexeddb": "file:node_modules\\cordova-plugin-indexeddb",
-        "cordova-plugin-whitelist": "1.2.2",
-        "cordova-windows": "4.4.2",
-        "indexeddb": "0.0.0",
-        "com.googlemaps.ios": "https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk"
-    },
-    "cordova": {
-        "platforms": [
-            "android",
-            "ios",
-            "windows"
-        ],
-        "plugins": {
-            "cordova-plugin-whitelist": {},
-            "cordova-plugin-camera": {},
-            "cordova-plugin-compat": {},
-            "cordova-plugin-indexedDB": {},
-            "cordova-plugin-geolocation": {},
-            "com.googlemaps.ios": {},
-            "cordova-plugin-googlemaps": {
-                "API_KEY_FOR_IOS": "AIzaSyAMsQNZwEkwAxN5rRy6QqEOwZ29lDPG4NA",
-                "API_KEY_FOR_ANDROID": "AIzaSyASk0uLn0oKU0ieI4ctfhkHIf9avURnlC4"
-            }
-        }
+  "name": "quipa",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "com.googlemaps.ios": "https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk",
+    "cordova-android": "^6.2.3",
+    "cordova-ios": "^4.2.0",
+    "cordova-plugin-camera": "^2.4.1",
+    "cordova-plugin-compat": "~1.1.0",
+    "cordova-plugin-geolocation": "^2.4.3",
+    "cordova-plugin-googlemaps": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps.git#multiple_maps",
+    "cordova-plugin-indexedDB": "~0.1.2",
+    "cordova-plugin-indexeddb": "file:node_modules\\cordova-plugin-indexeddb",
+    "cordova-plugin-whitelist": "1.2.2",
+    "cordova-windows": "4.4.2",
+    "indexeddb": "0.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-compat": {},
+      "cordova-plugin-indexedDB": {},
+      "cordova-plugin-geolocation": {},
+      "com.googlemaps.ios": {},
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_IOS": "AIzaSyAMsQNZwEkwAxN5rRy6QqEOwZ29lDPG4NA",
+        "API_KEY_FOR_ANDROID": "AIzaSyASk0uLn0oKU0ieI4ctfhkHIf9avURnlC4"
+      }
     }
+  }
 }
